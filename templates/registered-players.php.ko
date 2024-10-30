@@ -1,0 +1,40 @@
+<?php
+/**
+ * Display registered players for a specific game
+ *
+ * @license GPLv3
+ * @version 0.1	
+ * @author Frederic Hantrais
+ */
+
+global $title;
+?>
+
+<h1 class="bt-title">Registered Players for <?php echo $trndate ; ?></h1>
+
+<div class="registered_players">
+	<table class="wp-t-table widefat fixed posts" cellspacing="0">
+		<thead>
+			<tr>
+            <th>
+<?php				_e('Pair','bt') ?>
+				</th>
+				<th>
+<?php				_e('First Player','bt') ?>
+				</th>
+                				<th>
+<?php				_e('Second player','bt') ?>
+				</th>
+        </tr>
+		</thead>
+		<tbody>
+<?php		foreach ( $trn_result as $pair ): ?>
+			<tr>
+				<td><?php echo $pair['pair_id'] ?></td>
+                <td><?php echo $pair['player1'] ?></td>
+				<td><?php echo $pair['player2'] ?></td>
+			</tr>
+<?php		endforeach; ?>
+		</tbody>
+	</table>
+</div>

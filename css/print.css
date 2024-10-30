@@ -1,0 +1,4 @@
+/* Print Style Sheet */
+@media print {
+body { background:white; color:black; margin:0 }
+}

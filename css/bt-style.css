@@ -1,0 +1,96 @@
+table.bt-table {
+	font-family: verdana,arial,sans-serif;
+	font-size:14px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+	width: 100%;
+	border-spacing:0;
+}
+table.bt-table th {
+	border-width: 1px;
+	font-size: 14px;
+	padding: 10px;
+	border-style: solid;
+	border-color: #666666;;
+}
+table.bt-table td {
+	border-width: 1px;
+	padding: 10px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+}
+table.bt-large-table{
+	font-family: verdana,arial,sans-serif;
+	font-size:12px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+	width: 100%;
+	 
+}
+	table.bt-large-table th {
+	border-width: 1px;
+	font-size: 12px;
+	padding: 5px;
+	border-style: solid;
+	border-color: #666666;
+}
+table.bt-large-table td {
+	border-width: 1px;
+	padding: 5px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+}
+.large-table-page {
+	position: relative;
+	left: 0%;	
+}
+.bt-title{
+	font-size: 20px;
+	height: 40px;
+}
+.bt-title-centered{
+	font-size: 16px;
+	font-weight: bold;
+	height: 40px;
+	text-align: center;
+}
+.bt-dashboard-link{
+	font-size: 16px;
+	font-weight: bold;
+}
+.bt-dashboard-comment{
+	font-style: italic;	
+	margin-bottom: 20px;
+}
+.bt-error-messages{
+	color: red;	
+}
+.bt-comment-messages {
+	color: black;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+.bt-messages{
+	color: black;
+	font-weight: bold;
+	}
+.bt-message-area{
+	width: 600px;
+	height: 120px;
+	}
+.bt-page-title{
+	font-size: 20px;
+	height: 40px;
+	}
+.bt-link-back{
+	text-align: right;	
+	margin-bottom: 20px;
+	}
+
+	
